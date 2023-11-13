@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <TITLE></TITLE>
+    </HEAD>
+    <!--BACKGROUND-->
+    <STYLE>
+        body{
+            background-image: url(BBG.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: large
+        }
+    </STYLE>
+   <h3> PLEASE FULL UP TO PROCEED PURCHASE</h3>
+    <hr><hr>
+    <body>
+        <form>
+            <!--NAME TEXTBOX-->
+           <h5>
+            <label>NAME:</label><br>
+            <input type="text" placeholder="Enter Full name" required><br><br>
+           
+            <label>ADDRESS:</label><br>
+            <input type="text" placeholder="Enter Address" nmae="Email" required><br><br>
+            
+            <label>Contact Number:</label><br>
+            <input type="text" placeholder="09xx-xxx-xxxx" required><br><br>
+            
+            <label>Date of Purchase:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <!--GENDER-->
+            <LABEL>Gender:</LABEL><BR>
+            <input type="radio" id="male" value="Male">
+            <LABEL>Male</LABEL><BR>
+            <input type="radio" id="female" value="female">
+            <label>Female</label>
+            
+            <br><br>
+
+            <!--AGE-->
+            <label>Birthdate:</label><br>
+            <input type="date" id="birthdate" name="Birthdate" required><br><br>
+
+            <label>Age:</label><br>
+            <input type="number" id="qty" min="10" max="99" required>
+
+            <br><br><hr><hr>
+            </h5>
+
+        <!--PAYMENT-->
+           <h3><label>Payment Method:</label></h3>
+           <select name="Payment" id="pay" required>
+             <option value="COD">Cash On Delivery</option>
+             <option value="PayPal">PayPal</option>
+             <option value="G-CASH">G-CASH</option>
+             <option value="Bank">Bank Transfer</option>
+
+           </select><br><br>
+
+            <input type="SUBMIT" value="SUBMIT"><br>
+
+            <input type="reset" value="Reset">
+            <br><br>
+        </form>
+    </body>
+</HTML>

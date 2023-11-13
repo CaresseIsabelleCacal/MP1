@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav a{
+    display:block;
+    padding: 15px 18px 15px 20px;
+    text-decoration: none;
+    font-family:'Times New Roman';
+}
+.body,{
+    background:linear-gradient(125deg, rgb(2, 1, 1), rgb(7, 130, 231));
+}
+#para{
+    border-color: aqua;
+    border-style: double;
+    border-width: 15px;
+    color: wheat; 
+}

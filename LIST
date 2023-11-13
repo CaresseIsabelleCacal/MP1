@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    BOX-SIZING:BORDER-BOX;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(125deg, rgb(2, 1, 1), rgb(7, 130, 231));
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: large;
+        text-align: center;
+}
+.wrapper{
+    width: 450px;
+    background-image: url(MBG.jpg);
+}
